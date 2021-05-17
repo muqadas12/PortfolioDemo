@@ -1,5 +1,4 @@
 import { nanoid } from 'nanoid';
-
 // HEAD DATA
 export const headData = {
   title: '', // e.g: 'Name | Developer'
@@ -10,8 +9,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Muqaddas Shaaban',
+  subtitle: 'I am web developer',
   cta: '',
 };
 

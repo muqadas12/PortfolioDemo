@@ -4,6 +4,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
+import resume from "../../components/resume.pdf"
+
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
@@ -39,19 +41,19 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I am a software engineer. I can develope and design websites.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I can make websites in html,css,bootstrap,Reactjs,Nodejs.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || 'I can also do Wordpress SEO .'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
-                      target="_blank"
+                     
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
                       href={resume}
